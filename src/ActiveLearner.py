@@ -18,8 +18,8 @@ from sklearn.cluster import KMeans
 
 
 class ActiveLearner(object):
-    intent_path = "~/Documents/lab/Blender/active-learning/Interactions/src/lib/wtextproc-2/intent"
-    named_entity_path = "~/Documents/lab/Blender/active-learning/Interactions/src/lib/wtextproc-2/named-entity"
+    #intent_path = "~/Documents/lab/Blender/active-learning/Interactions/src/lib/wtextproc-2/intent"
+    named_entity_path = "./lib/wtextproc-2/named-entity"  # todo remember to pack the lib
 
 
 
